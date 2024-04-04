@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color:rgb(206,162,215);
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(103,74,179);
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+    padding: 18px;
+}
+.brand img{
+    width:59px;
+    padding: 0 18px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 54vh;
+    background-color: rgb(213, 173, 220);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 60%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('twoo.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(103,74,179);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 13px;
+}
+.icons i{
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(206,162,215);
+    font-weight: bold;
+    color: rgb(240, 209, 250);
+    margin: 10px 0;
+    justify-content: space-between;
+    border-radius: 13px;
+}
+.songItem img{
+    margin: 0 10px;
+    border-radius: 7px;
+}
+.timestamp{
+    margin: 0 23px;
+} 
+i:hover {
+    background-color: rgb(252, 179, 242);
+  }
+.songInfo{
+   color:rgb(240, 209, 250) ;
+   position: absolute;
+   left: 30vh;
+}  
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+a:link{
+    color: rgb(206,162,215);
+}
+a:visited {
+    color:rgb(206,162,215);
+  } 
+
+a:hover {
+    color: hotpink;
+  }
+  
+a:active {
+    color: rgb(206,162,215);
+  }
